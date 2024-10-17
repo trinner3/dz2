@@ -48,7 +48,7 @@ header span {
 
 .main-image {
     /* Стили для изображения в первой секции */
-    min-width: 715px;
+    max-width: 715px;
 }
 
 
@@ -65,7 +65,8 @@ select {
     padding: 9px 12px;
     font-weight: 400;
     font-size: 16px;
-    background-image: url(./assets/images/ep_arrow-down.svg) no-repeat;
+    background-image: url(./assets/images/ep_arrow-down.svg);
+    background-repeat: no-repeat;
     
 }
 
@@ -80,7 +81,7 @@ select {
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
     list-style-image: url(./assets/images/Vector.png);
-    padding-left: 20px;
+    padding: 0px 0px 0px 20px;
     font-weight: 400;
     font-size: 16px;
 }
@@ -89,7 +90,7 @@ select {
     /* Стили для нумерованного списка во второй секции */
     font-weight: 400;
     font-size: 16px;
-    padding-left: 20px;
+    padding: 0px 0px 0px 20px;
 }
 
 .label {
